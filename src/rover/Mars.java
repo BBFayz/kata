@@ -76,12 +76,12 @@ public class Mars {
 	
 	public void sendData(ArrayList<Rover> rovers)
 	{
-		//myLogger.setLevel(Level.FINEST);
+		//myLogger.setLevel(Level.FINE);
 		//ConsoleHandler handler = new ConsoleHandler();
         //handler.setLevel(Level.FINEST);
         //myLogger.addHandler(handler);
 		for (Rover r : rovers) {
-			//myLogger.log(Level.FINEST, r.toString());
+			//myLogger.log(Level.FINE, r.toString());
 			System.out.println(r);
 		}
 	}
